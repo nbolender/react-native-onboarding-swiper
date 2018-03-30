@@ -128,7 +128,6 @@ class Onboarding extends Component {
         onLayout={this._onLayout}
         style={{ flex: 1, backgroundColor, justifyContent: 'center' }}
       >
-        <StatusBar barStyle={this.state.gone ? 'default' : barStyle} />
         <FlatList
           ref={list => {
             this.flatList = list;
